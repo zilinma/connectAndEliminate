@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csci205_final_project.Menu.FinalProjectMenuController">
+   <children>
+      <HBox prefHeight="468.0" prefWidth="717.0" VBox.vgrow="ALWAYS">
+         <children>
+            <VBox alignment="CENTER" prefHeight="479.0" prefWidth="227.0">
+               <children>
+                  <Button fx:id="btnStart" mnemonicParsing="false" onAction="#startNewGame" prefWidth="200.0" text="Start New Game">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="btnLoad" mnemonicParsing="false" onAction="#loadGame" prefWidth="200.0" text="Load Game">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="btnTutorial" mnemonicParsing="false" onAction="#openTutorial" prefWidth="200.0" text="Tutorial">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="btnRecords" mnemonicParsing="false" onAction="#openRecords" prefWidth="200.0" text="Records">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="btnExit" mnemonicParsing="false" onAction="#Exit" prefWidth="200.0" text="Exit">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <ImageView fx:id="menuImage" fitHeight="277.0" fitWidth="397.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets left="80.0" top="100.0" />
+               </HBox.margin></ImageView>
+         </children>
+      </HBox>
+   </children>
+</VBox>
