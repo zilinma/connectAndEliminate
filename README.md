@@ -27,5 +27,6 @@ manual:
 https://github.com/zilinma/connectAndEliminate/blob/master/docs/DesignManual.pdf
 
 ## Screenshots
-![Tittle](https://github.com/zilinma/connectAndEliminate/blob/master/src/image/tittle.png)
-![Rankings](https://github.com/zilinma/connectAndEliminate/blob/master/src/image/rankings.png)
+![Tittle](https://github.com/zilinma/connectAndEliminate/blob/master/Tittle.png)
+![Rankings](https://github.com/zilinma/connectAndEliminate/blob/master/Rankings.png)
+![GameScene](https://github.com/zilinma/connectAndEliminate/blob/master/GameScene.png)
